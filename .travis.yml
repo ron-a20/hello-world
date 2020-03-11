@@ -8,3 +8,12 @@ node_js:
   - "0.8"
   - "0.6"
   - "iojs"
+before_install
+    install
+    before_script
+    script
+    after_success or after_failure
+    after_script
+    OPTIONAL before_deploy
+    OPTIONAL deploy
+    OPTIONAL after_deploy
